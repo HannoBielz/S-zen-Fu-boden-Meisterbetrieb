@@ -1,22 +1,161 @@
-@media screen and (max-width: 400px) {
-  #features {
-    padding: 20px;
-    width: 111%;
-  }
-  #about,
-  #services,
-  #testimonials,
-  #team,
-  #contact,
-  #footer {
-    width: 111%;
+/* Sicherstellen, dass die Container in mobilen Ansichten 100% breit sind */
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box; /* Stellt sicher, dass Padding und Border zur Breite zählen */
+}
+
+/* Breite der Abschnitte auf 100% setzen */
+#features,
+#about,
+#services,
+#testimonials,
+#team,
+#contact,
+#footer,
+#portfolio {
+  width: 100%;
+}
+
+/* Vermeidung von horizontalem Scrollen */
+body {
+  overflow-x: hidden;
+}
+
+/* Stile für das Bild */
+.img-responsive {
+  max-width: 100%; /* Bildgröße auf 100% der Container-Breite beschränken */
+  height: auto; /* Höhe automatisch anpassen, um die Proportionen beizubehalten */
+  display: block; /* Verhindert zusätzlichen Abstand unter dem Bild */
+  margin: 0 auto; /* Zentriert das Bild innerhalb des Containers */
+}
+
+/* Stile für die Header-Sektion */
+#header {
+  width: 100%;
+  overflow: hidden; /* Verhindert Überlauf */
+}
+
+.intro {
+  padding: 80px 0; /* Padding für die Einführung */
+  text-align: center;
+  background: #f8f9fa; /* Beispielhintergrundfarbe */
+}
+
+.intro .intro-text {
+  color: #333; /* Beispiel Textfarbe */
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.intro .btn {
+  font-size: 1em;
+}
+
+/* Stile für die Navigation */
+#menu {
+  width: 100%;
+  background: #fff; /* Beispiel Hintergrundfarbe */
+  border-bottom: 1px solid #ddd; /* Beispiel Rand */
+}
+
+.navbar {
+  margin-bottom: 0; /* Entfernt zusätzlichen Margin */
+  border: none; /* Entfernt die Border */
+}
+
+.navbar-header {
+  float: none; /* Verhindert, dass Header-Elemente floaten */
+}
+
+.navbar-toggle {
+  margin-top: 15px; /* Abstand oben für den Toggle-Button */
+}
+
+.navbar-brand {
+  font-size: 1.5em; /* Schriftgröße für das Logo */
+}
+
+.navbar-collapse {
+  text-align: center; /* Zentriert Navigation links */
+}
+
+.navbar-nav {
+  margin: 0; /* Entfernt Margin für Navigationselemente */
+  padding: 0; /* Entfernt zusätzliches Padding */
+}
+
+.navbar-nav > li {
+  display: inline-block; /* Listenelemente nebeneinander anzeigen */
+  margin: 0; /* Entfernt Margin */
+}
+
+.navbar-nav > li > a {
+  padding: 15px 20px; /* Padding für Links */
+  font-size: 1em; /* Schriftgröße für Links */
+}
+
+/* Responsive Anpassungen */
+@media screen and (max-width: 768px) {
+  .intro h1 {
+    font-size: 2em;
   }
 
-  #portfolio {
-    width: 110%;
+  .intro p {
+    font-size: 1em;
+  }
+
+  .intro .btn {
+    font-size: 0.9em;
+  }
+
+  .navbar-brand {
+    font-size: 1.3em;
+  }
+
+  .navbar-nav > li > a {
+    padding: 10px 15px;
+    font-size: 0.9em;
   }
 }
-.elfsight-widget-container {
-  margin-bottom: 0 !important; /* Override default margin */
-  padding-bottom: 0 !important; /* Override default padding */
+
+@media screen and (max-width: 400px) {
+  .intro h1 {
+    font-size: 1.5em;
+  }
+
+  .intro p {
+    font-size: 0.9em;
+  }
+
+  .intro .btn {
+    font-size: 0.8em;
+  }
+
+  .navbar-brand {
+    font-size: 1.2em;
+  }
+
+  .navbar-nav > li > a {
+    font-size: 0.9em; /* Schriftgröße für Links */
+    display: inline-block; /* Stellt sicher, dass der Button nicht unerwartet umbrochen wird */
+  }
+
+  .navbar-nav {
+    margin: 0; /* Entfernt zusätzlichen Margin */
+    padding: 0; /* Entfernt zusätzliches Padding */
+  }
+
+  .navbar-collapse {
+    padding: 0; /* Entfernt zusätzliches Padding in der zusammenklappbaren Navbar */
+  }
 }

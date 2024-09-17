@@ -1,0 +1,137 @@
+{
+  "Header": {
+    "title": "Ihr Meisterbetrieb für Bodenbeläge",
+    "paragraph": "Süzen Fußboden Meisterbetrieb – Experten für Parkett, Vinyl, Laminat und Kork. Wir bieten individuelle Bodenlösungen für Ihr Zuhause."
+  },
+  "About": {
+    "paragraph": "Willkommen bei Süzen Fußboden Meisterbetrieb – Ihrem Spezialisten für Parkett, Vinyl, Laminat, Kork und vieles mehr. Wir bieten maßgeschneiderte Fußbodenlösungen für Ihr Zuhause, mit einem Fokus auf Qualität und professionelle Beratung.",
+    "Why": [
+      "Höchste Qualität",
+      "Professionelle Beratung",
+      "Individuelle Lösungen",
+      "Umfassende Erfahrung"
+    ],
+    "Why2": [
+      "Zuverlässigkeit und Präzision",
+      "Schnelle und saubere Ausführung",
+      "Erstklassiger Kundenservice",
+      "Langjährige Expertise"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Parkettverlegung",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Vinylboden",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Laminatboden",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Korkboden",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Bodenrenovierung",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Holzbodenrestaurierung",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-leaf",
+      "name": "Parkettverlegung",
+      "text": "Professionelle Verlegung von hochwertigen Parkettböden, die Ihrem Raum Eleganz verleihen."
+    },
+    {
+      "icon": "fa fa-th-large",
+      "name": "Vinylboden",
+      "text": "Robuste und wasserfeste Vinylböden, perfekt für Wohn- und Geschäftsräume."
+    },
+    {
+      "icon": "fa fa-clone",
+      "name": "Laminatboden",
+      "text": "Kostengünstige und stilvolle Laminatböden, ideal für ein modernes Raumdesign."
+    },
+    {
+      "icon": "fa fa-tree",
+      "name": "Korkboden",
+      "text": "Natürliche und umweltfreundliche Korkböden, die Komfort und Wärme bieten."
+    },
+    {
+      "icon": "fa fa-wrench",
+      "name": "Bodenrenovierung",
+      "text": "Professionelle Renovierung alter Böden, um ihren ursprünglichen Glanz wiederherzustellen."
+    },
+    {
+      "icon": "fa fa-heart",
+      "name": "Beratung & Planung",
+      "text": "Individuelle Beratung und Planung für Ihre Bodenprojekte – von der Idee bis zur Umsetzung."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Süzen Fußboden hat unsere Erwartungen übertroffen. Der neue Parkettboden ist wunderschön verlegt.\"",
+      "name": "Anna Müller"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Die Beratung war erstklassig und das Ergebnis fantastisch. Unser Wohnzimmer sieht jetzt wie neu aus.\"",
+      "name": "Maximilian Schulz"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Professionell, schnell und mit Liebe zum Detail – so kann man den Service von Süzen beschreiben.\"",
+      "name": "Leonie Bauer"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Der Korkboden ist genau das, was wir uns vorgestellt haben. Danke für die tolle Arbeit!\"",
+      "name": "Johann Wagner"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Mehmet Süzen",
+      "job": "Inhaber & Meister"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Ali Yılmaz",
+      "job": "Bodenleger"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Elif Kaya",
+      "job": "Kundenberatung"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Serkan Demir",
+      "job": "Projektleiter"
+    }
+  ],
+  "Contact": {
+    "address": "Beispielstraße 12, 12345 Musterstadt, Deutschland",
+    "phone": "+49 123 4567890",
+    "email": "info@suezen-boden.de",
+    "facebook": "https://www.facebook.com/suezenboden",
+    "twitter": "https://twitter.com/suezenboden",
+    "youtube": "https://www.youtube.com/channel/UC12345"
+  }
+}

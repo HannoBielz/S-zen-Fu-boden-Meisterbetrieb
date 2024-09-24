@@ -611,3 +611,13 @@ label {
     margin: 50px 0;
   }
 }
+@media (max-width: 768px) {
+  #features .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #features .col-xs-6 {
+    width: 50%;
+    float: left;
+  }
+}

@@ -35,30 +35,20 @@ body {
 #header {
   width: 100%;
   overflow: hidden; /* Verhindert Überlauf */
+  background-image: url("../public/img/intro-bg.jpg"); /* Add your background image */
+  background-attachment: fixed; /* Optional: This keeps the background in place */
+  background-size: cover; /* Cover the entire area */
 }
 
-.intro {
-  padding: 80px 0; /* Padding für die Einführung */
-  text-align: center;
-  background: #f8f9fa; /* Beispielhintergrundfarbe */
+/* Sicherstellen, dass der Header-Titel und Paragraph weiß sind */
+header .intro-text h1 {
+  color: #ffffff; /* Weiß für den Titel */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-.intro .intro-text {
-  color: #333; /* Beispiel Textfarbe */
-}
-
-.intro h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.intro p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-.intro .btn {
-  font-size: 1em;
+header .intro-text p {
+  color: #fffffa; /* Weiß für den Paragraph */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 /* Stile für die Navigation */

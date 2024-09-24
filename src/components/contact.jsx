@@ -6,6 +6,7 @@ const initialState = {
   name: "",
   email: "",
   message: "",
+  instagram: "",
 };
 
 export const Contact = (props) => {
@@ -127,6 +128,14 @@ export const Contact = (props) => {
                   <i className="fa fa-envelope-o"></i> E-Mail
                 </span>{" "}
                 {props.data ? props.data.email : "lädt..."}
+              </p>
+            </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa fa-envelope-o"></i> Instagram
+                </span>{" "}
+                {props.data ? props.data.instagram : "lädt..."}
               </p>
             </div>
           </div>

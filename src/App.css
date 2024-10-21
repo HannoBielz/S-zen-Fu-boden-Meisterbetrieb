@@ -92,7 +92,7 @@ header .intro-text p {
 }
 
 .navbar-toggle {
-  margin-top: 15px; /* Abstand oben für den Toggle-Button */
+  margin-top: auto; /* Abstand oben für den Toggle-Button */
 }
 
 .navbar-brand {

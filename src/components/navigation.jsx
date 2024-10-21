@@ -1,4 +1,6 @@
 import React from "react";
+import "font-awesome/css/font-awesome.min.css"; // Stellen Sie sicher, dass Font Awesome importiert ist
+import "../Navigation.css"; // Importieren Sie die CSS-Datei für Styling
 
 export const Navigation = () => {
   return (
@@ -17,7 +19,15 @@ export const Navigation = () => {
             <span className="icon-bar"></span>
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            Süzen Fußboden
+            Süzen Fussboden
+          </a>
+          <a
+            href="https://www.instagram.com/suezen_fussboden?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            rel="noopener noreferrer"
+            className="instagram-link page-scroll"
+          >
+            <i className="fa fa-instagram" aria-hidden="true"></i>
           </a>
         </div>
 

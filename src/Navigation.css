@@ -1,0 +1,74 @@
+/* Container für den Instagram-Link unter dem Brand-Text */
+.instagram-container {
+  display: flex;
+  justify-content: flex-start; /* Linksbündig ausrichten */
+  margin-top: 5px; /* Abstand zwischen "Süzen Fussboden" und dem Instagram-Link */
+}
+
+/* Styling für den Instagram-Link */
+.instagram-link {
+  display: flex; /* Flexbox für zentrierte Ausrichtung */
+  align-items: center; /* Vertikale Zentrierung */
+  justify-content: center; /* Horizontale Zentrierung */
+  font-size: 10px; /* Schriftgröße für das Icon */
+  color: white; /* Textfarbe */
+  padding: 5px; /* Padding für den Kreis */
+  border-radius: 50%; /* Abgerundeter Rand für den Hintergrund */
+  text-decoration: none;
+  background: linear-gradient(
+    90deg,
+    #833ab4,
+    #fdc830
+  ); /* Farbverlauf von Lila zu Gelb */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Schatteneffekt */
+  width: 35px; /* Feste Breite für das Logo */
+  height: 35px; /* Feste Höhe für das Logo */
+}
+
+.instagram-link:hover {
+  opacity: 0.8; /* Hover-Effekt */
+}
+
+.instagram-link .fa {
+  font-size: 24px; /* Größe des Icons */
+  line-height: 1; /* Zeilenhöhe anpassen, um die Position zu zentrieren */
+}
+
+/* Sicherstellen, dass alle Elemente in der mobilen Ansicht zentriert sind */
+@media (max-width: 768px) {
+  .navbar-header {
+    display: flex;
+    align-items: center; /* Vertikale Zentrierung */
+    justify-content: space-between; /* Platz zwischen den Elementen */
+    width: 100%; /* Breite des Headers */
+  }
+
+  .navbar-brand {
+    margin-right: auto; /* Der Brand bleibt links */
+  }
+
+  .instagram-link {
+    margin-left: auto; /* Automatischer Abstand zum Burger-Menü */
+  }
+
+  .navbar-toggle {
+    margin-left: 10px; /* Abstand zum Instagram-Link */
+  }
+}
+
+/* Anpassungen für Medium und Large View */
+@media (min-width: 769px) {
+  .navbar-header {
+    display: flex;
+    align-items: center; /* Vertikale Zentrierung */
+    width: 100%; /* Breite des Headers */
+  }
+
+  .navbar-brand {
+    margin-right: auto; /* Der Brand bleibt links */
+  }
+
+  .instagram-container {
+    margin-left: auto; /* Automatisch Platz lassen, um das Logo rechts auszurichten */
+  }
+}

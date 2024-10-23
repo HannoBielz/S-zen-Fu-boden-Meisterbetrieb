@@ -52,34 +52,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-leaf",
-      "name": "Parkettverlegung",
-      "text": "Professionelle Verlegung von hochwertigen Parkettböden, die Ihrem Raum Eleganz verleihen."
+      "icon": "fa fa-th-large",
+      "name": "Parkett",
+      "text": "Hochwertige Parkettböden, die Ihren Räumen Eleganz und Stil verleihen."
     },
     {
       "icon": "fa fa-th-large",
-      "name": "Vinylboden",
+      "name": "Vinyl",
       "text": "Robuste und wasserfeste Vinylböden, perfekt für Wohn- und Geschäftsräume."
     },
     {
       "icon": "fa fa-clone",
-      "name": "Laminatboden",
-      "text": "Kostengünstige und stilvolle Laminatböden, ideal für ein modernes Raumdesign."
+      "name": "Linoleum",
+      "text": "Langlebige und pflegeleichte Linoleumböden, die sich perfekt für stark frequentierte Bereiche eignen."
     },
     {
       "icon": "fa fa-tree",
-      "name": "Korkboden",
-      "text": "Natürliche und umweltfreundliche Korkböden, die Komfort und Wärme bieten."
+      "name": "Teppich",
+      "text": "Behagliche und schalldämmende Teppichböden, die eine warme Atmosphäre schaffen."
     },
     {
       "icon": "fa fa-wrench",
-      "name": "Bodenrenovierung",
-      "text": "Professionelle Renovierung alter Böden, um ihren ursprünglichen Glanz wiederherzustellen."
+      "name": "Fliesen",
+      "text": "Vielfältige Fliesenlösungen für jeden Raum, die Funktionalität und Ästhetik vereinen."
     },
     {
       "icon": "fa fa-heart",
-      "name": "Beratung & Planung",
-      "text": "Individuelle Beratung und Planung für Ihre Bodenprojekte – von der Idee bis zur Umsetzung."
+      "name": "Laminat",
+      "text": "Kostengünstige und stilvolle Laminatböden, ideal für ein modernes Raumdesign."
     }
   ],
   "Testimonials": [

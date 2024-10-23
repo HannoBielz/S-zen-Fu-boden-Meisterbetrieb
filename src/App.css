@@ -181,3 +181,6 @@ header .intro-text p {
     padding: 0; /* Entfernt zusätzliches Padding in der zusammenklappbaren Navbar */
   }
 }
+.elfsight-widget {
+  height: 100px; /* Beispiel für eine feste Höhe */
+}

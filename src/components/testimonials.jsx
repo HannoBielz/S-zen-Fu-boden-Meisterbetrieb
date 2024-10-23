@@ -6,7 +6,7 @@ export const Testimonials = () => {
   const widgetId = "6e9c948c-7df1-4839-9f0d-8a9792a9ffca"; // Your Elfsight widget ID
 
   return (
-    <div id="testimonials" style={{ marginBottom: "0", paddingBottom: "0" }}>
+    <div id="testimonials">
       <div className="container">
         <div className="section-title text-center">
           <h2>Was unsere Kunden sagen</h2>

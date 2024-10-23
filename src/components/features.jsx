@@ -5,7 +5,11 @@ export const Features = (props) => {
     <div id="features" className="text-center">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Dienstleistungen</h2>
+          <h2>Unsere Produkte</h2>
+          <p>
+            Gerne beraten wir Sie vor Ort, um die besten Lösungen für Ihre
+            Bodenprojekte zu finden.
+          </p>
         </div>
         <div className="row">
           {props.data
